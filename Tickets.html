@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tickets  page</title>
+
+    <link href="Styles.css" rel="stylesheet" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="content">
+                <h2>HighSpirits</h2>
+                <nav class="top-menu">
+                    <ul>
+                        <li><a href="#">New Ticket</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">My Settings</a></li>
+                        <li><a href="#">Billing</a></li>
+                        <li><a href="#">Abhi</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </nav>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Dashboard</a></li>
+                        <li class="open"><a href="#">Tickets</a></li>
+                        <li><a href="#">Manage</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Reports</a></li>
+                        <li><a href="#">Knowledge Base</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <section class="tickets-category-nav-bar">
+            <div class="content">
+                <nav>
+                    <ul>
+                        <li><a href="#">My Queue</a></li>
+                        <li class="selected"><a href="#">Pending</a></li>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Open</a></li>
+                        <li><a href="#">On Hold</a></li>
+                        <li><a href="#">Solved</a></li>
+                        <li><a href="#">Closed</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <div class="content">
+            <div class="tickets-container">
+                <form name="tickets-resolution-form">
+                    <div class="ticket-box">
+                        <div class="checkbox">
+                            <input type="checkbox" name="ticket-check"/>
+                        </div>
+                        <div class="main-box">
+                            <div class="summary-panel">
+                                <div class="ticket-reference">
+                                    <span class="ticket-id">#DC00000002</span>
+                                    <input type="button" id="ticket-status" value="NEW" />
+                                </div>
+                                <div class="ticket-desc">
+                                    <h4>Help!</h4>
+                                    <p>This is your first HappyFox ticket.Any requests will be sent to your unique HappyFox email address</p>
+                                </div>
+                                <div class="last-updated-time">
+                                    <span class="last-updated-label">last updated</span>
+                                    <span class="time">3 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="interaction-panel">
+                                <input type="button" id="reply"/>
+                                <input type="button" id="private-note"/>
+                                <input type="button" id="subscribe" />
+                                <div class="owner">
+                                    <span>assigned to</span>
+                                    <select>
+                                        <option>Sundari Balasanjeevi</option>
+                                        <option>Abhinaya</option>
+                                        <option>Ramapriya</option>
+                                        <option>Ambika Babuji</option>
+                                    </select>
+                                </div>
+                                <div class="customer">
+                                    <span>raised by</span>
+                                    <input type="button" id="view-customer-details" value="Raj"/>
+                                    <input type="button" id="view-customer-info"/>
+                                </div>
+                                <div class="priority">
+                                    <span>priority</span>
+                                    <input type="button" id="select-priority" value="Normal"/>
+                                    <input type="button" id="choose-priority-level"/>
+                                </div>
+                                <div class="category">
+                                    <span>category</span>
+                                    <input type="button" id="select-category" value="Default category"/>
+                                    <input type="button" id="choose-category"/>
+                                </div>
+                                <div class="due-date">
+                                    <span>due date</span>
+                                    <input type="button" id="select-duedate" value="Not Set"/>
+                                    <input type="button" id="edit-duedate"/>
+                                </div>
+                                <span class="priority-indicator"></span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,198 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body .wrapper {
+  background-color: #f5f5f5;
+  height: 100%;
+}
+body .wrapper header {
+  background-color: #333333;
+}
+body .wrapper header .content {
+  width: 974px;
+  margin: 0 auto;
+}
+body .wrapper header .content h2 {
+  float: left;
+  color: #ffffff;
+  font-family: "Open Sans", "sans-serif";
+  font-size: 17px;
+  font-weight: 100;
+}
+body .wrapper header .content .top-menu {
+  float: right;
+}
+body .wrapper header .content .main-menu {
+  clear: right;
+}
+body .wrapper header .content .main-menu ul {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+body .wrapper header .content .main-menu ul li a {
+  font-size: 14px;
+}
+body .wrapper header .content .main-menu ul .open {
+  background-color: #ffc30f;
+  padding: 11px 0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+body .wrapper header .content .main-menu ul .open a {
+  color: #240700;
+}
+body .wrapper header .content nav ul li {
+  display: inline;
+}
+body .wrapper header .content nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Open Sans", "sans-serif";
+  font-size: 12px;
+}
+body .wrapper header .content:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+body .wrapper .tickets-category-nav-bar {
+  background-color: #ffc30f;
+}
+body .wrapper .tickets-category-nav-bar .content {
+  width: 974px;
+  margin: 0 auto;
+}
+body .wrapper .tickets-category-nav-bar .content nav ul {
+  margin: 0;
+  padding: 15px 0px;
+}
+body .wrapper .tickets-category-nav-bar .content nav ul li {
+  display: inline;
+}
+body .wrapper .tickets-category-nav-bar .content nav ul li a {
+  text-decoration: none;
+  color: #240700;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Open Sans", "sans-serif";
+  font-size: 12px;
+}
+body .wrapper .tickets-category-nav-bar .content nav ul .selected {
+  background-color: #333333;
+  border-radius: 6px;
+  padding-top: 2px;
+  padding-bottom: 6px;
+}
+body .wrapper .tickets-category-nav-bar .content nav ul .selected a {
+  color: #ffffff;
+}
+body .wrapper .content {
+  width: 974px;
+  margin: 0 auto;
+}
+body .wrapper .content .tickets-container form .ticket-box {
+  margin-top: 40px;
+}
+body .wrapper .content .tickets-container form .ticket-box .checkbox {
+  margin-top: 35px;
+  padding: 25px 0px;
+  float: left;
+  width: 4%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  box-shadow: 0 0 30px 10px #ccc;
+}
+body .wrapper .content .tickets-container form .ticket-box .checkbox input {
+  margin: 0 20px;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box {
+  float: left;
+  width: 95%;
+  box-shadow: 0px 0px 30px 10px #ccc;
+  border-radius: 8px;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel div {
+  float: left;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel div .ticket-id,
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel div .last-updated-label {
+  display: block;
+  font-size: 12px;
+  font-family: "Open Sans", "sans-serif";
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel div .ticket-id {
+  padding: 0 20px;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel div .last-updated-label {
+  color: #ccc;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference,
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc {
+  padding: 16px 0;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference {
+  width: 12%;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference input {
+  background-color: #ffc30f;
+  color: #ffffff;
+  font-family: "Open Sans", "sans-serif";
+  border: none;
+  font-size: 10px;
+  margin-top: 14px;
+  padding: 8px 15px;
+  width: 100%;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc {
+  width: 73%;
+  padding-left: 10px;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc h4,
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc p {
+  font-family: "Open Sans", "sans-serif";
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc h4 {
+  margin: 0;
+  font-size: 14px;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc p {
+  margin-bottom: 0;
+  margin-top: 14px;
+  font-size: 12px;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .last-updated-time {
+  width: 13%;
+  font-size: 12px;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  font-family: "Open Sans", "sans-serif";
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel {
+  background-color: #f2fafa;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel .interaction-buttons {
+  border-right: 1px solid #ccc;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel .interaction-buttons input {
+  border: none;
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel .interaction-buttons #reply {
+  background-image: url("images/reply.png");
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel .interaction-buttons #private-note {
+  background-image: url("images/private-note.png");
+}
+body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel .interaction-buttons #subscribe {
+  background-image: url("images/subscribe.png");
+}
