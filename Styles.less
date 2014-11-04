@@ -1,8 +1,12 @@
 @contentWidth: 974px;
 @headerFontColor: #ffffff;
 @headerFont: "Open Sans","sans-serif";
+@labelFontSize: 11px;
+@labelFontFamily: "Open Sans","sans-serif";
+@labelFontColor: #ccc;
 @ticketsNavbarColor: #ffc30f;
 @ticketsCategoryFontColor: #240700;
+@interactionPanelBgcolor: #f2fafa;
 html, body {
   margin: 0;
   height: 100%;
@@ -135,14 +139,14 @@ body {
                   float: left;
                   .ticket-id, .last-updated-label {
                     display: block;
-                    font-size: 12px;
-                    font-family: @headerFont;
+                    font-size: @labelFontSize;
+                    font-family: @labelFontFamily;
                   }
                   .ticket-id {
                     padding: 0 20px;
                   }
                   .last-updated-label {
-                    color: #ccc;
+                    color: @labelFontColor;
                   }
                 }
                 .ticket-reference, .ticket-desc {
@@ -191,30 +195,99 @@ body {
                 clear: both;
               }
               .interaction-panel {
-                background-color: #f2fafa;
+                background-color:@interactionPanelBgcolor ;
                 border-bottom-left-radius: 8px;
                 border-bottom-right-radius: 8px;
-                .interaction-buttons {
+                height: 44px;
+                .interactive-buttons {
                   border-right: 1px solid #ccc;
-                  input {
-                    border: none;
-
-                  }
-                  #reply {
-                    background-image: url("images/reply.png");
-                  }
-                  #private-note {
-                    background-image: url("images/private-note.png");
-                  }
-                  #subscribe {
-                    background-image: url("images/subscribe.png");
-                  }
+                  border-left: 0;
+                  border-top: 0;
+                  border-bottom: 0;
+                  padding:0;
+                  width: 4%;
+                  height: 30px;
+                  float: left;
+                  background-position: 50% 50%;
+                  background-color: transparent;
+                  background-repeat: no-repeat;
+                  height: inherit;
                 }
 
-               .owner,.customer {
+                #reply {
+                  background-image: url("images/reply-icon.png");
+                }
+                #private-note {
+                  background-image: url("images/privatenote-icon.png");
+                }
+                #subscribe {
+                  background-image: url("images/subscribed.png");
+                }
+                div {
+                  float: left;
+                  width: 15%;
+                  padding: 5px 0px 5px 10px;
+                  border-right: 1px solid #ccc;
+                  span {
+                    display: block;
+                    font-size: @labelFontSize;
+                    font-family: @labelFontFamily;
+                    color: @labelFontColor;
+                  }
+                  .edit {
+                    //border: none;
+                    color: @labelFontColor;
+                    font-family: @labelFontFamily;
+                    font-size: 13px;
+                    width: 110px;
+                    text-align: left;
+                    border: none;
+                    background-color: transparent;
+                    padding: 0;
+                  }
+                  .icon {
+                    float: right;
+                    width: 5px;
+                    margin-right: 10px;
+                    background: url("images/down-arrow.png") no-repeat;
+                    display: none;
+                    border: 0;
+                    background-size: contain;
 
-               }
+                  }
+                }
+                div:hover {
+                  .icon {
+                    display: inline-block;
+                  }
+                  .edit {
+                    color: black;
+                  }
+                }
+                .members {
+                  select {
+                    width: 120px;
+                    font-size: 13px;
+                    option {
+                      color: @labelFontColor;
+                      font-size: 13px;
+                    }
+                  }
+                }
+                .response-indicator {
+                  background-image: url("images/responded-icon.png");
+                  background-position: 50% 50%;
+                  display: inline-block;
+                  height: inherit;
+                  width: 60px;
+                  background-repeat: no-repeat;
 
+                }
+              }
+              .interaction-panel:after {
+                content: '';
+                display: block;
+                clear: both;
               }
             }
 

@@ -75,10 +75,11 @@
                                 </div>
                             </div>
                             <div class="interaction-panel">
-                                <input type="button" id="reply"/>
-                                <input type="button" id="private-note"/>
-                                <input type="button" id="subscribe" />
-                                <div class="owner">
+                                <input type="button" class="interactive-buttons" id="reply"/>
+                                <input type="button" class="interactive-buttons" id="private-note"/>
+                                <input type="button" class="interactive-buttons" id="subscribe" />
+
+                                <div class="members">
                                     <span>assigned to</span>
                                     <select>
                                         <option>Sundari Balasanjeevi</option>
@@ -87,27 +88,30 @@
                                         <option>Ambika Babuji</option>
                                     </select>
                                 </div>
-                                <div class="customer">
+                                <div class="members">
                                     <span>raised by</span>
-                                    <input type="button" id="view-customer-details" value="Raj"/>
-                                    <input type="button" id="view-customer-info"/>
+                                    <input type="button" class="edit"  value="Raj"/>
+                                    <input type="button" class="icon"/>
                                 </div>
                                 <div class="priority">
                                     <span>priority</span>
-                                    <input type="button" id="select-priority" value="Normal"/>
-                                    <input type="button" id="choose-priority-level"/>
+                                    <input type="button" class="edit" value="Normal"/>
+                                    <input type="button" class="icon"/>
                                 </div>
                                 <div class="category">
                                     <span>category</span>
-                                    <input type="button" id="select-category" value="Default category"/>
-                                    <input type="button" id="choose-category"/>
+                                    <input type="button" class="edit" value="Default category"/>
+                                    <input type="button" class="icon"/>
                                 </div>
                                 <div class="due-date">
                                     <span>due date</span>
-                                    <input type="button" id="select-duedate" value="Not Set"/>
-                                    <input type="button" id="edit-duedate"/>
+                                    <input type="button" class="edit" value="Not Set"/>
+                                    <input type="button" class="icon"/>
                                 </div>
-                                <span class="priority-indicator"></span>
+
+                                <span class="response-indicator">
+                                </span>
+
 
                             </div>
                         </div>

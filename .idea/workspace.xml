@@ -26,7 +26,7 @@
       <file leaf-file-name="Tickets.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tickets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="32" selection-start="3448" selection-end="3448" vertical-scroll-proportion="0.5714286" vertical-offset="1755" max-vertical-offset="3456">
+            <state line="112" column="0" selection-start="5558" selection-end="5558" vertical-scroll-proportion="2.4761906" vertical-offset="1620" max-vertical-offset="3564">
               <folding />
             </state>
           </provider>
@@ -35,10 +35,8 @@
       <file leaf-file-name="Styles.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="0" selection-start="5396" selection-end="5396" vertical-scroll-proportion="-12.366667" vertical-offset="3571" max-vertical-offset="4806">
-              <folding>
-                <element signature="e#3199#4930#0" expanded="false" />
-              </folding>
+            <state line="6" column="29" selection-start="206" selection-end="206" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="8235">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,11 +44,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3888">
-              <folding>
-                <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4482">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,7 +53,7 @@
       <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="29" selection-start="1457" selection-end="1457" vertical-scroll-proportion="-67.63333" vertical-offset="131" max-vertical-offset="12474">
+            <state line="80" column="29" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="12474">
               <folding />
             </state>
           </provider>
@@ -127,6 +122,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -147,7 +143,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,6 +153,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -188,17 +184,17 @@
     <frame x="-16" y="0" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12737921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -225,16 +221,47 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/webwewant/index.html">
+    <entry file="file://$PROJECT_DIR$/Tickets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="196" selection-end="196" vertical-scroll-proportion="0.02300885" vertical-offset="125" max-vertical-offset="2553">
+        <state line="112" column="63" selection-start="5621" selection-end="5621" vertical-scroll-proportion="0.0" vertical-offset="2646" max-vertical-offset="3591">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="251" column="37" selection-start="7271" selection-end="7271" vertical-scroll-proportion="0.0" vertical-offset="6341" max-vertical-offset="8100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="29" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="12474">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/webwewant/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="196" selection-end="196" vertical-scroll-proportion="0.02300885" vertical-offset="125" max-vertical-offset="2553" />
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Documents/webwewant/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="207" selection-end="207" vertical-scroll-proportion="0.3979239" vertical-offset="0" max-vertical-offset="5566">
+        <state line="10" column="1" selection-start="207" selection-end="207" vertical-scroll-proportion="0.3979239" vertical-offset="0" max-vertical-offset="5566" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="29" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="12474">
           <folding />
         </state>
       </provider>
@@ -242,32 +269,20 @@
     <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3312">
-          <folding>
-            <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="29" selection-start="1457" selection-end="1457" vertical-scroll-proportion="-67.63333" vertical-offset="131" max-vertical-offset="12474">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="0" selection-start="5396" selection-end="5396" vertical-scroll-proportion="-12.366667" vertical-offset="3571" max-vertical-offset="4806">
-          <folding>
-            <element signature="e#3199#4930#0" expanded="false" />
-          </folding>
+        <state line="6" column="29" selection-start="206" selection-end="206" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="8235">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tickets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="32" selection-start="3448" selection-end="3448" vertical-scroll-proportion="0.5714286" vertical-offset="1755" max-vertical-offset="3456">
+        <state line="112" column="0" selection-start="5558" selection-end="5558" vertical-scroll-proportion="2.4761906" vertical-offset="1620" max-vertical-offset="3564">
           <folding />
         </state>
       </provider>
