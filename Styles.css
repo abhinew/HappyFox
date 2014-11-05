@@ -97,7 +97,7 @@ body .wrapper .content {
 body .wrapper .content .tickets-container form .ticket-box {
   margin-top: 40px;
 }
-body .wrapper .content .tickets-container form .ticket-box .checkbox {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .checkbox {
   margin-top: 35px;
   padding: 25px 0px;
   float: left;
@@ -106,38 +106,38 @@ body .wrapper .content .tickets-container form .ticket-box .checkbox {
   border-bottom-left-radius: 8px;
   box-shadow: 0 0 30px 10px #ccc;
 }
-body .wrapper .content .tickets-container form .ticket-box .checkbox input {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .checkbox input {
   margin: 0 20px;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box {
   float: left;
   width: 95%;
   box-shadow: 0px 0px 30px 10px #ccc;
   border-radius: 8px;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel > div {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel > div {
   float: left;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel > div .ticket-id,
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel > div .last-updated-label {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel > div .ticket-id,
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel > div .last-updated-label {
   display: block;
   font-size: 11px;
   font-family: "Open Sans", "sans-serif";
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel > div .ticket-id {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel > div .ticket-id {
   padding: 0 20px;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel > div .last-updated-label {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel > div .last-updated-label {
   color: #cccccc;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference,
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference,
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-desc {
   padding: 16px 0;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference {
   width: 12%;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference label {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference label {
   display: none;
   color: #ffffff;
   font-family: "Open Sans", "sans-serif";
@@ -148,63 +148,63 @@ body .wrapper .content .tickets-container form .ticket-box .main-box .summary-pa
   text-align: center;
   text-transform: uppercase;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference label.current {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference label.current {
   display: block;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference input[type="radio"] {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference input[type="radio"] {
   display: none;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference .new {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference .new {
   background-color: #fc9300;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference .open {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference .open {
   background-color: #0065c9;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference .on-hold {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference .on-hold {
   background-color: #969632;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference .solved {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference .solved {
   background-color: #97c900;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-reference .closed {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-reference .closed {
   background-color: #636363;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-desc {
   width: 73%;
   padding-left: 10px;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc h4,
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc p {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-desc h4,
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-desc p {
   font-family: "Open Sans", "sans-serif";
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc h4 {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-desc h4 {
   margin: 0;
   font-size: 14px;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .ticket-desc p {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .ticket-desc p {
   margin-bottom: 0;
   margin-top: 14px;
   font-size: 12px;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel .last-updated-time {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel .last-updated-time {
   width: 13%;
   font-size: 12px;
   padding-top: 14px;
   padding-bottom: 16px;
   font-family: "Open Sans", "sans-serif";
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .summary-panel:after {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .summary-panel:after {
   content: '';
   display: block;
   clear: both;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel {
   background-color: #f2fafa;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   height: 44px;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel .interactive-buttons {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel .interactive-buttons {
   border-right: 1px solid #ccc;
   border-left: 0;
   border-top: 0;
@@ -218,28 +218,28 @@ body .wrapper .content .tickets-container form .ticket-box .main-box .interactio
   background-repeat: no-repeat;
   height: inherit;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel #reply {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel #reply {
   background-image: url("images/reply-icon.png");
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel #private-note {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel #private-note {
   background-image: url("images/privatenote-icon.png");
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel #subscribe {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel #subscribe {
   background-image: url("images/subscribed.png");
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel div {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel div {
   float: left;
   width: 15%;
   padding: 5px 0px 5px 10px;
   border-right: 1px solid #ccc;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel div span {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel div span {
   display: block;
   font-size: 11px;
   font-family: "Open Sans", "sans-serif";
   color: #cccccc;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel div .edit {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel div .edit {
   color: #cccccc;
   font-family: "Open Sans", "sans-serif";
   font-size: 13px;
@@ -249,7 +249,7 @@ body .wrapper .content .tickets-container form .ticket-box .main-box .interactio
   background-color: transparent;
   padding: 0;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel div .icon {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel div .icon {
   float: right;
   width: 5px;
   margin-right: 10px;
@@ -258,21 +258,21 @@ body .wrapper .content .tickets-container form .ticket-box .main-box .interactio
   border: 0;
   background-size: contain;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel div:hover .icon {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel div:hover .icon {
   display: inline-block;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel div:hover .edit {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel div:hover .edit {
   color: black;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel .members select {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel .members select {
   width: 120px;
   font-size: 13px;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel .members select option {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel .members select option {
   color: #cccccc;
   font-size: 13px;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel .response-indicator {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel .response-indicator {
   background-image: url("images/responded-icon.png");
   background-position: 50% 50%;
   display: inline-block;
@@ -280,7 +280,81 @@ body .wrapper .content .tickets-container form .ticket-box .main-box .interactio
   width: 60px;
   background-repeat: no-repeat;
 }
-body .wrapper .content .tickets-container form .ticket-box .main-box .interaction-panel:after {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+body .wrapper .content .tickets-container form .ticket-box .reply-box {
+  display: none;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 3px 1px #ccc;
+}
+body .wrapper .content .tickets-container form .ticket-box .reply-box textarea {
+  height: 40px;
+  width: 500px;
+  font-style: italic;
+}
+body .wrapper .content .tickets-container form .ticket-box .reply-box .field {
+  margin-top: 22px;
+}
+body .wrapper .content .tickets-container form .ticket-box .reply-box .reply-box-buttons {
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 11px;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #999;
+  padding: 5px 10px;
+  margin-right: 3px;
+  text-shadow: #666666 -1px -1px 0px;
+}
+body .wrapper .content .tickets-container form .ticket-box .reply-box.open {
+  display: block;
+}
+body .wrapper .content .tickets-container form .ticket-box .private-note-box {
+  display: none;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 3px 1px #ccc;
+}
+body .wrapper .content .tickets-container form .ticket-box .private-note-box textarea {
+  height: 40px;
+  width: 500px;
+  font-style: italic;
+}
+body .wrapper .content .tickets-container form .ticket-box .private-note-box .field {
+  margin-top: 22px;
+}
+body .wrapper .content .tickets-container form .ticket-box .private-note-box .private-note-buttons {
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 11px;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #999;
+  padding: 5px 10px;
+  margin-right: 3px;
+  text-shadow: #666666 -1px -1px 0px;
+}
+body .wrapper .content .tickets-container form .ticket-box .private-note-box.open {
+  display: block;
+}
+body .wrapper .content .tickets-container form .ticket-box:after {
   content: '';
   display: block;
   clear: both;

@@ -11,6 +11,8 @@
         $changeStatusDialog = $(".edit-ticket-status");
         $statusContainer = $(".status-container");
         $("body").on("click",clickedOutsideDialogHandler);
+        $("#reply").click(showReplyDialog);
+        $("#private-note").click(showPrivateNoteDialog);
     });
 
     function showChangeStatusDialog() {
@@ -43,6 +45,15 @@
             closeChangeStatusDialog();
         }
 
+    }
+
+    function showReplyDialog(){
+
+        $(".reply-box").slideToggle("open");
+    }
+    function showPrivateNoteDialog(){
+
+        $(".private-note-box").slideToggle("open");
     }
 
 })();

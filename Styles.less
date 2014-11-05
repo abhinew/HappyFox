@@ -122,26 +122,26 @@ body {
         form {
           .ticket-box {
             margin-top: 40px;
-
-            .checkbox {
-              margin-top: 35px;
-              padding: 25px 0px;
-              float: left;
-              width: 4%;
-              border-top-left-radius: 8px;
-              border-bottom-left-radius: 8px;
-              box-shadow: 0 0 30px 10px #ccc;
-              input {
-                margin: 0 20px;
+            .ticket-row1 {
+              .checkbox {
+                margin-top: 35px;
+                padding: 25px 0px;
+                float: left;
+                width: 4%;
+                border-top-left-radius: 8px;
+                border-bottom-left-radius: 8px;
+                box-shadow: 0 0 30px 10px #ccc;
+                input {
+                  margin: 0 20px;
+                }
               }
-            }
-            .main-box {
-              float: left;
-              width: 95%;
-              box-shadow: 0px 0px 30px 10px #ccc;
-              border-radius: 8px;
-              .summary-panel {
-                > div {
+              .main-box {
+                float: left;
+                width: 95%;
+                box-shadow: 0px 0px 30px 10px #ccc;
+                border-radius: 8px;
+                .summary-panel {
+                  > div {
                     float: left;
                     .ticket-id, .last-updated-label {
                       display: block;
@@ -154,173 +154,253 @@ body {
                     .last-updated-label {
                       color: @labelFontColor;
                     }
-                }
-                .ticket-reference, .ticket-desc {
-                  padding: 16px 0;
-                }
-                .ticket-reference {
-                  width: 12%;
-                  label {
-                    display: none;
-                    color: #ffffff;
-                    font-family: @headerFont;
-                    font-size: 10px;
-                    margin-top: 14px;
-                    padding: 8px 15px;
-                    cursor: pointer;
-                    text-align: center;
-                    text-transform: uppercase;
-                    &.current {
-                      display: block;
+                  }
+                  .ticket-reference, .ticket-desc {
+                    padding: 16px 0;
+                  }
+                  .ticket-reference {
+                    width: 12%;
+                    label {
+                      display: none;
+                      color: #ffffff;
+                      font-family: @headerFont;
+                      font-size: 10px;
+                      margin-top: 14px;
+                      padding: 8px 15px;
+                      cursor: pointer;
+                      text-align: center;
+                      text-transform: uppercase;
+                      &.current {
+                        display: block;
+                      }
+                    }
+                    input[type="radio"] {
+                      display: none;
+                    }
+                    .new {
+                      background-color: @newColor;
+                    }
+                    .open {
+                      background-color: @openColor;
+                    }
+                    .on-hold {
+                      background-color: @onholdColor;
+                    }
+                    .solved {
+                      background-color: @solvedColor;
+                    }
+                    .closed {
+                      background-color: @closedColor;
+                    }
+
+
+                  }
+                  .ticket-desc {
+                    width: 73%;
+                    padding-left: 10px;
+                    h4, p {
+                      font-family: @headerFont;
+                    }
+                    h4 {
+                      margin: 0;
+                      font-size: 14px;
+                    }
+                    p {
+                      margin-bottom: 0;
+                      margin-top: 14px;
+                      font-size: 12px;
                     }
                   }
-                  input[type="radio"] {
-                    display: none;
-                  }
-                  .new {
-                    background-color: @newColor;
-                  }
-                  .open {
-                    background-color: @openColor;
-                  }
-                  .on-hold {
-                    background-color: @onholdColor;
-                  }
-                  .solved {
-                    background-color: @solvedColor;
-                  }
-                  .closed {
-                    background-color: @closedColor;
-                  }
-
-
-                }
-                .ticket-desc {
-                  width: 73%;
-                  padding-left: 10px;
-                  h4, p {
-                    font-family: @headerFont;
-                  }
-                  h4 {
-                    margin: 0;
-                    font-size: 14px;
-                  }
-                  p {
-                    margin-bottom: 0;
-                    margin-top: 14px;
+                  .last-updated-time {
+                    width: 13%;
                     font-size: 12px;
+                    padding-top: 14px;
+                    padding-bottom: 16px;
+                    font-family: @headerFont;
                   }
                 }
-                .last-updated-time {
-                  width: 13%;
-                  font-size: 12px;
-                  padding-top: 14px;
-                  padding-bottom: 16px;
-                  font-family: @headerFont;
+                .summary-panel:after {
+                  content: '';
+                  display: block;
+                  clear: both;
                 }
-              }
-              .summary-panel:after {
-                content: '';
-                display: block;
-                clear: both;
-              }
-              .interaction-panel {
-                background-color:@interactionPanelBgcolor ;
-                border-bottom-left-radius: 8px;
-                border-bottom-right-radius: 8px;
-                height: 44px;
-                .interactive-buttons {
-                  border-right: 1px solid #ccc;
-                  border-left: 0;
-                  border-top: 0;
-                  border-bottom: 0;
-                  padding:0;
-                  width: 4%;
-                  height: 30px;
-                  float: left;
-                  background-position: 50% 50%;
-                  background-color: transparent;
-                  background-repeat: no-repeat;
-                  height: inherit;
-                }
-
-                #reply {
-                  background-image: url("images/reply-icon.png");
-                }
-                #private-note {
-                  background-image: url("images/privatenote-icon.png");
-                }
-                #subscribe {
-                  background-image: url("images/subscribed.png");
-                }
-                div {
-                  float: left;
-                  width: 15%;
-                  padding: 5px 0px 5px 10px;
-                  border-right: 1px solid #ccc;
-                  span {
-                    display: block;
-                    font-size: @labelFontSize;
-                    font-family: @labelFontFamily;
-                    color: @labelFontColor;
-                  }
-                  .edit {
-                    //border: none;
-                    color: @labelFontColor;
-                    font-family: @labelFontFamily;
-                    font-size: 13px;
-                    width: 110px;
-                    text-align: left;
-                    border: none;
+                .interaction-panel {
+                  background-color:@interactionPanelBgcolor ;
+                  border-bottom-left-radius: 8px;
+                  border-bottom-right-radius: 8px;
+                  height: 44px;
+                  .interactive-buttons {
+                    border-right: 1px solid #ccc;
+                    border-left: 0;
+                    border-top: 0;
+                    border-bottom: 0;
+                    padding:0;
+                    width: 4%;
+                    height: 30px;
+                    float: left;
+                    background-position: 50% 50%;
                     background-color: transparent;
-                    padding: 0;
+                    background-repeat: no-repeat;
+                    height: inherit;
                   }
-                  .icon {
-                    float: right;
-                    width: 5px;
-                    margin-right: 10px;
-                    background: url("images/down-arrow.png") no-repeat;
-                    display: none;
-                    border: 0;
-                    background-size: contain;
 
+                  #reply {
+                    background-image: url("images/reply-icon.png");
                   }
-                }
-                div:hover {
-                  .icon {
-                    display: inline-block;
+                  #private-note {
+                    background-image: url("images/privatenote-icon.png");
                   }
-                  .edit {
-                    color: black;
+                  #subscribe {
+                    background-image: url("images/subscribed.png");
                   }
-                }
-                .members {
-                  select {
-                    width: 120px;
-                    font-size: 13px;
-                    option {
+                  div {
+                    float: left;
+                    width: 15%;
+                    padding: 5px 0px 5px 10px;
+                    border-right: 1px solid #ccc;
+                    span {
+                      display: block;
+                      font-size: @labelFontSize;
+                      font-family: @labelFontFamily;
                       color: @labelFontColor;
+                    }
+                    .edit {
+                      //border: none;
+                      color: @labelFontColor;
+                      font-family: @labelFontFamily;
                       font-size: 13px;
+                      width: 110px;
+                      text-align: left;
+                      border: none;
+                      background-color: transparent;
+                      padding: 0;
+                    }
+                    .icon {
+                      float: right;
+                      width: 5px;
+                      margin-right: 10px;
+                      background: url("images/down-arrow.png") no-repeat;
+                      display: none;
+                      border: 0;
+                      background-size: contain;
+
                     }
                   }
-                }
-                .response-indicator {
-                  background-image: url("images/responded-icon.png");
-                  background-position: 50% 50%;
-                  display: inline-block;
-                  height: inherit;
-                  width: 60px;
-                  background-repeat: no-repeat;
+                  div:hover {
+                    .icon {
+                      display: inline-block;
+                    }
+                    .edit {
+                      color: black;
+                    }
+                  }
+                  .members {
+                    select {
+                      width: 120px;
+                      font-size: 13px;
+                      option {
+                        color: @labelFontColor;
+                        font-size: 13px;
+                      }
+                    }
+                  }
+                  .response-indicator {
+                    background-image: url("images/responded-icon.png");
+                    background-position: 50% 50%;
+                    display: inline-block;
+                    height: inherit;
+                    width: 60px;
+                    background-repeat: no-repeat;
 
+                  }
                 }
-              }
-              .interaction-panel:after {
-                content: '';
-                display: block;
-                clear: both;
+                .interaction-panel:after {
+                  content: '';
+                  display: block;
+                  clear: both;
+                }
               }
             }
+            .ticket-row1:after {
+              content: '';
+              display: block;
+              clear: both;
+            }
 
+            .reply-box {
+              display: none;
+              margin-left: 40px;
+              margin-top: 40px;
+              padding: 20px;
+              border-radius: 10px;
+              border: 1px solid #ccc;
+              background-color: #ffffff;
+              box-shadow: 3px 3px 3px 1px #ccc;
+
+              textarea {
+                height: 40px;
+                width: 500px;
+                font-style: italic;
+              }
+              .field {
+                margin-top: 22px;
+              }
+              .reply-box-buttons {
+                font-family: 'Open Sans','sans-serif';
+                font-size: 11px;
+                border: none;
+                border-radius: 5px;
+                color: #FFF;
+                background-color: #999;
+                padding: 5px 10px;
+                margin-right: 3px;
+                text-shadow: #666 -1px -1px 0px;
+              }
+              &.open {
+                display: block;
+              }
+
+            }
+            .private-note-box {
+              display: none;
+              margin-left: 40px;
+              margin-top: 40px;
+              padding: 20px;
+              border-radius: 10px;
+              border: 1px solid #ccc;
+              background-color: #ffffff;
+              box-shadow: 3px 3px 3px 1px #ccc;
+
+              textarea {
+                height: 40px;
+                width: 500px;
+                font-style: italic;
+              }
+              .field {
+                margin-top: 22px;
+              }
+              .private-note-buttons {
+                font-family: 'Open Sans','sans-serif';
+                font-size: 11px;
+                border: none;
+                border-radius: 5px;
+                color: #FFF;
+                background-color: #999;
+                padding: 5px 10px;
+                margin-right: 3px;
+                text-shadow: #666 -1px -1px 0px;
+              }
+              &.open {
+                display: block;
+              }
+
+            }
+
+          }
+          .ticket-box:after {
+            content: '';
+            display: block;
+            clear: both;
           }
           .edit-ticket-status {
             display: none;

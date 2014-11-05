@@ -57,66 +57,82 @@
             <div class="tickets-container">
                 <form name="tickets-resolution-form">
                     <div class="ticket-box">
-                        <div class="checkbox">
-                            <input type="checkbox" name="ticket-check"/>
-                        </div>
-                        <div class="main-box">
-                            <div class="summary-panel">
-                                <div class="ticket-reference">
-                                    <span class="ticket-id">#DC00000002</span>
-                                    <div class="status-container">
-                                        <input id="newradio" type="radio" name="status" value="new"/><label class="new current" for="newradio" >new</label>
-                                        <input id="openradio" type="radio" name="status" value="open"/><label for="openradio" class="open" >open</label>
-                                        <input id="holdradio" type="radio" name="status" value="on-hold"/><label for="holdradio" class="on-hold" >on hold</label>
-                                        <input id="solvedradio" type="radio" name="status" value="solved"/><label for="solvedradio" class="solved" >solved</label>
-                                        <input id="closedradio" type="radio" name="status" value="closed"/><label for="closedradio" class="closed" >closed</label>
+                        <div class="ticket-row1">
+                            <div class="checkbox">
+                                <input type="checkbox" name="ticket-check"/>
+                            </div>
+                            <div class="main-box">
+                                <div class="summary-panel">
+                                    <div class="ticket-reference">
+                                        <span class="ticket-id">#DC00000002</span>
+                                        <div class="status-container">
+                                            <input id="newradio" type="radio" name="status" value="new"/><label class="new current" for="newradio" >new</label>
+                                            <input id="openradio" type="radio" name="status" value="open"/><label for="openradio" class="open" >open</label>
+                                            <input id="holdradio" type="radio" name="status" value="on-hold"/><label for="holdradio" class="on-hold" >on hold</label>
+                                            <input id="solvedradio" type="radio" name="status" value="solved"/><label for="solvedradio" class="solved" >solved</label>
+                                            <input id="closedradio" type="radio" name="status" value="closed"/><label for="closedradio" class="closed" >closed </label>
+                                        </div>
+                                    </div>
+                                    <div class="ticket-desc">
+                                        <h4>Help!</h4>
+                                        <p>This is your first HappyFox ticket.Any requests will be sent to your unique HappyFox email address</p>
+                                    </div>
+                                    <div class="last-updated-time">
+                                        <span class="last-updated-label">last updated</span>
+                                        <span class="time">3 hours ago</span>
                                     </div>
                                 </div>
-                                <div class="ticket-desc">
-                                    <h4>Help!</h4>
-                                    <p>This is your first HappyFox ticket.Any requests will be sent to your unique HappyFox email address</p>
-                                </div>
-                                <div class="last-updated-time">
-                                    <span class="last-updated-label">last updated</span>
-                                    <span class="time">3 hours ago</span>
-                                </div>
-                            </div>
-                            <div class="interaction-panel">
-                                <input type="button" class="interactive-buttons" id="reply"/>
-                                <input type="button" class="interactive-buttons" id="private-note"/>
-                                <input type="button" class="interactive-buttons" id="subscribe" />
+                                <div class="interaction-panel">
+                                    <input type="button" class="interactive-buttons" id="reply"/>
+                                    <input type="button" class="interactive-buttons" id="private-note"/>
+                                    <input type="button" class="interactive-buttons" id="subscribe" />
 
-                                <div class="members">
-                                    <span>assigned to</span>
-                                    <select>
-                                        <option>Sundari Balasanjeevi</option>
-                                        <option>Abhinaya</option>
-                                        <option>Ramapriya</option>
-                                        <option>Ambika Babuji</option>
-                                    </select>
-                                </div>
-                                <div class="members">
-                                    <span>raised by</span>
-                                    <input type="button" class="edit"  value="Raj"/>
-                                    <input type="button" class="icon"/>
-                                </div>
-                                <div class="priority">
-                                    <span>priority</span>
-                                    <input type="button" class="edit" value="Normal"/>
-                                    <input type="button" class="icon"/>
-                                </div>
-                                <div class="category">
-                                    <span>category</span>
-                                    <input type="button" class="edit" value="Default category"/>
-                                    <input type="button" class="icon"/>
-                                </div>
-                                <div class="due-date">
-                                    <span>due date</span>
-                                    <input type="button" class="edit" value="Not Set"/>
-                                    <input type="button" class="icon"/>
-                                </div>
+                                    <div class="members">
+                                        <span>assigned to</span>
+                                        <select>
+                                            <option>Sundari Balasanjeevi</option>
+                                            <option>Abhinaya</option>
+                                            <option>Ramapriya</option>
+                                            <option>Ambika Babuji</option>
+                                        </select>
+                                    </div>
+                                    <div class="members">
+                                        <span>raised by</span>
+                                        <input type="button" class="edit"  value="Raj"/>
+                                        <input type="button" class="icon"/>
+                                    </div>
+                                    <div class="priority">
+                                        <span>priority</span>
+                                        <input type="button" class="edit" value="Normal"/>
+                                        <input type="button" class="icon"/>
+                                    </div>
+                                    <div class="category">
+                                        <span>category</span>
+                                        <input type="button" class="edit" value="Default category"/>
+                                        <input type="button" class="icon"/>
+                                    </div>
+                                    <div class="due-date">
+                                        <span>due date</span>
+                                        <input type="button" class="edit" value="Not Set"/>
+                                        <input type="button" class="icon"/>
+                                    </div>
                                 <span class="response-indicator">
                                 </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reply-box">
+                            <textarea placeholder="Type your reply message here"></textarea>
+                            <div class="field">
+                                <input type="button" class="reply-box-buttons" value="Send Reply"/>
+                                <input type="button" class="reply-box-buttons" value="Cancel"/>
+                            </div>
+                        </div>
+                        <div class="private-note-box">
+                            <textarea placeholder="Type your private note message here"></textarea>
+                            <div class="field">
+                                <input type="button" class="private-note-buttons" value="Send Private Note"/>
+                                <input type="button" class="private-note-buttons" value="Cancel"/>
                             </div>
                         </div>
                     </div>
