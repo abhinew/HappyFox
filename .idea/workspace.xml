@@ -22,44 +22,119 @@
     <favorites_list name="HappyFox" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Tickets.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tickets.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="0" selection-start="5558" selection-end="5558" vertical-scroll-proportion="2.4761906" vertical-offset="1620" max-vertical-offset="3564">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Styles.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Styles.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="206" selection-end="206" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="8235">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4482">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/style.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="29" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="12474">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.65373355">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Tickets.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Tickets.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="71" column="154" selection-start="3627" selection-end="3627" vertical-scroll-proportion="-13.7" vertical-offset="1506" max-vertical-offset="3888">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Interactions.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Interactions.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="35" column="49" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.60101867" vertical-offset="348" max-vertical-offset="1296">
+                  <folding>
+                    <element signature="e#0#42#0" expanded="false" />
+                    <element signature="e#594#650#0" expanded="false" />
+                    <element signature="e#684#925#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DaterangePicker.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Daterange picker/DaterangePicker.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="28" selection-start="629" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="1539" max-vertical-offset="2214">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Leave form with Date range picker.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Daterange picker/Leave form with Date range picker.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="891">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4482">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="80" column="29" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="12474">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Modal-example.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Modal example/Modal-example.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="45" column="10" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-22.933332" vertical-offset="527" max-vertical-offset="1431">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="checkboxesSelection.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Documents/Js browser programs/SelectAllCheckboxes/checkboxesSelection.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="modal.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../Modal example/modal.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Tickets.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Tickets.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="66" column="55" selection-start="2820" selection-end="2827" vertical-scroll-proportion="0.3321033" vertical-offset="1602" max-vertical-offset="3888">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Styles.less" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Styles.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="332" column="22" selection-start="9590" selection-end="9590" vertical-scroll-proportion="-4.9454546" vertical-offset="8692" max-vertical-offset="11394">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -71,6 +146,7 @@
       <list>
         <option value="$PROJECT_DIR$/Styles.less" />
         <option value="$PROJECT_DIR$/Tickets.html" />
+        <option value="$PROJECT_DIR$/Interactions.js" />
       </list>
     </option>
   </component>
@@ -148,7 +224,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="last_opened_file_path" value="C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/style.less" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Daterange picker/Leave form with Date range picker.html" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -181,7 +257,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="0" width="1382" height="744" extended-state="0" />
+    <frame x="-16" y="0" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -189,7 +265,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12737921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12737921" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -273,17 +349,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Documents/Js browser programs/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Js browser programs/mybrowser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="783">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Js browser programs/SelectAllCheckboxes/checkboxes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.4" vertical-offset="162" max-vertical-offset="783">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Modal example/modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Modal example/Modal-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="10" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-22.933332" vertical-offset="527" max-vertical-offset="1431">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Js browser programs/SelectAllCheckboxes/checkboxesSelection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="206" selection-end="206" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="8235">
+        <state line="332" column="22" selection-start="9590" selection-end="9590" vertical-scroll-proportion="-4.9454546" vertical-offset="8692" max-vertical-offset="11394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Daterange picker/Leave form with Date range picker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tickets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="0" selection-start="5558" selection-end="5558" vertical-scroll-proportion="2.4761906" vertical-offset="1620" max-vertical-offset="3564">
+        <state line="71" column="154" selection-start="3627" selection-end="3627" vertical-scroll-proportion="-13.7" vertical-offset="1506" max-vertical-offset="3888">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Daterange picker/DaterangePicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="28" selection-start="629" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="2214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="49" selection-start="1133" selection-end="1133" vertical-scroll-proportion="0.60101867" vertical-offset="348" max-vertical-offset="1296">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+            <element signature="e#594#650#0" expanded="false" />
+            <element signature="e#684#925#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

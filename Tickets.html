@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>Tickets  page</title>
-
     <link href="Styles.css" rel="stylesheet" type="text/css"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script src="Interactions.js" type="text/javascript"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -63,7 +64,13 @@
                             <div class="summary-panel">
                                 <div class="ticket-reference">
                                     <span class="ticket-id">#DC00000002</span>
-                                    <input type="button" id="ticket-status" value="NEW" />
+                                    <div class="status-container">
+                                        <input id="newradio" type="radio" name="status" value="new"/><label class="new current" for="newradio" >new</label>
+                                        <input id="openradio" type="radio" name="status" value="open"/><label for="openradio" class="open" >open</label>
+                                        <input id="holdradio" type="radio" name="status" value="on-hold"/><label for="holdradio" class="on-hold" >on hold</label>
+                                        <input id="solvedradio" type="radio" name="status" value="solved"/><label for="solvedradio" class="solved" >solved</label>
+                                        <input id="closedradio" type="radio" name="status" value="closed"/><label for="closedradio" class="closed" >closed</label>
+                                    </div>
                                 </div>
                                 <div class="ticket-desc">
                                     <h4>Help!</h4>
@@ -108,20 +115,25 @@
                                     <input type="button" class="edit" value="Not Set"/>
                                     <input type="button" class="icon"/>
                                 </div>
-
                                 <span class="response-indicator">
                                 </span>
-
-
                             </div>
                         </div>
-
+                    </div>
+                    <div class="edit-ticket-status">
+                        <h3>Change status</h3>
+                        <p>Change the ticket status</p>
+                        <ul>
+                            <li><a href="#" class="new">new</a></li>
+                            <li><a href="#" class="open">open</a></li>
+                            <li><a href="#" class="on-hold">on hold</a></li>
+                            <li><a href="#" class="solved">solved</a></li>
+                            <li><a href="#" class="closed">closed</a></li>
+                        </ul>
                     </div>
                 </form>
             </div>
-
         </div>
-
     </div>
 </body>
 </html>
