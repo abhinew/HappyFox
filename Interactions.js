@@ -5,6 +5,7 @@
 (function() {
     var $changeStatusDialog;
     var $statusContainer;
+
     $(window).load(function() {
         $(".status-container label").click(showChangeStatusDialog);
         $(".edit-ticket-status ul li a").click(setCurrentStatus);
@@ -13,6 +14,14 @@
         $("body").on("click",clickedOutsideDialogHandler);
         $("#reply").click(showReplyDialog);
         $("#private-note").click(showPrivateNoteDialog);
+
+
+        $(".close").click(function () {
+            $(this).closest(".overlay").hide();
+        })
+        $(".overlay-shower").click(function () {
+            $(this).find(".overlay").fadeToggle();
+        })
     });
 
     function showChangeStatusDialog() {
@@ -39,23 +48,17 @@
     }
 
     function clickedOutsideDialogHandler() {
-
-        if ( !isTargetInsideDialog() && !isTargetTheStatusButton() )
-        {
+        if ( !isTargetInsideDialog() && !isTargetTheStatusButton() ) {
             closeChangeStatusDialog();
         }
-
     }
 
     function showReplyDialog(){
-
         $(".reply-box").slideToggle("open");
     }
     function showPrivateNoteDialog(){
-
         $(".private-note-box").slideToggle("open");
     }
-
 })();
 
 

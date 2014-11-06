@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f6833f3-31c6-451b-9acd-f2dfbbfadf12" name="Default" comment="" />
+    <list default="true" id="2f6833f3-31c6-451b-9acd-f2dfbbfadf12" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Abhinaya\PhpstormProjects\HappyFox\images\private-note.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abhinaya\PhpstormProjects\HappyFox\images\reply.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Abhinaya\PhpstormProjects\HappyFox\images\subscribe.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interactions.js" afterPath="$PROJECT_DIR$/Interactions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles.css" afterPath="$PROJECT_DIR$/Styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Styles.less" afterPath="$PROJECT_DIR$/Styles.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tickets.html" afterPath="$PROJECT_DIR$/Tickets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="HappyFox.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,13 +31,13 @@
     <favorites_list name="HappyFox" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.54612005">
       <split-first>
         <leaf>
           <file leaf-file-name="Tickets.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Tickets.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="134" column="68" selection-start="7766" selection-end="7766" vertical-scroll-proportion="-10.0" vertical-offset="3318" max-vertical-offset="4320">
+                <state line="107" column="67" selection-start="6145" selection-end="6145" vertical-scroll-proportion="-4.909091" vertical-offset="2619" max-vertical-offset="4914">
                   <folding />
                 </state>
               </provider>
@@ -46,7 +55,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="4482">
+                <state line="30" column="8" selection-start="851" selection-end="851" vertical-scroll-proportion="-17.1" vertical-offset="297" max-vertical-offset="4482">
                   <folding />
                 </state>
               </provider>
@@ -55,11 +64,9 @@
           <file leaf-file-name="Interactions.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Interactions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="55" column="24" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.72864324" vertical-offset="807" max-vertical-offset="1593">
+                <state line="22" column="42" selection-start="739" selection-end="739" vertical-scroll-proportion="0.8190955" vertical-offset="51" max-vertical-offset="1863">
                   <folding>
                     <element signature="e#0#42#0" expanded="false" />
-                    <element signature="e#695#751#0" expanded="false" />
-                    <element signature="e#785#1026#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -68,9 +75,9 @@
           <file leaf-file-name="Styles.less" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Styles.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="358" column="14" selection-start="10788" selection-end="10788" vertical-scroll-proportion="-4.836364" vertical-offset="9400" max-vertical-offset="13554">
+                <state line="420" column="14" selection-start="13020" selection-end="13020" vertical-scroll-proportion="0.0" vertical-offset="11074" max-vertical-offset="15336">
                   <folding>
-                    <marker date="1415196626118" expanded="true" signature="9759:9858" placeholder="{...}" />
+                    <marker date="1415272247554" expanded="true" signature="11968:12067" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -83,10 +90,8 @@
           <file leaf-file-name="Styles.less" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Styles.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="378" column="22" selection-start="11337" selection-end="11337" vertical-scroll-proportion="0.29889297" vertical-offset="9153" max-vertical-offset="12663">
-                  <folding>
-                    <element signature="e#9883#10859#0" expanded="false" />
-                  </folding>
+                <state line="324" column="57" selection-start="10012" selection-end="10012" vertical-scroll-proportion="0.7619048" vertical-offset="8316" max-vertical-offset="15336">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -113,7 +118,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-16" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -133,7 +139,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -240,7 +246,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="0" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -256,11 +262,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -282,6 +288,45 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Tickets.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="68" selection-start="7766" selection-end="7766" vertical-scroll-proportion="0.0" vertical-offset="3318" max-vertical-offset="4320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1512">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interactions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="1647">
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="382" column="0" selection-start="11389" selection-end="11389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13608">
+          <folding>
+            <marker date="1415272247554" expanded="true" signature="11968:12067" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tickets.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="112" column="63" selection-start="5621" selection-end="5621" vertical-scroll-proportion="0.0" vertical-offset="2646" max-vertical-offset="3591">
           <folding />
         </state>
@@ -291,7 +336,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="251" column="37" selection-start="7271" selection-end="7271" vertical-scroll-proportion="0.0" vertical-offset="6341" max-vertical-offset="8100">
           <folding>
-            <marker date="1415196626118" expanded="true" signature="9759:9858" placeholder="{...}" />
+            <marker date="1415272247554" expanded="true" signature="11968:12067" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -305,9 +350,7 @@
     </entry>
     <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="29" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="12474">
-          <folding />
-        </state>
+        <state line="80" column="29" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="12474" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/webwewant/index.html">
@@ -322,65 +365,47 @@
     </entry>
     <entry file="file://$USER_HOME$/Documents/Js browser programs/validate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/Js browser programs/mybrowser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="783">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="783" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/Js browser programs/SelectAllCheckboxes/checkboxes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.4" vertical-offset="162" max-vertical-offset="783">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.4" vertical-offset="162" max-vertical-offset="783" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Daterange picker/DaterangePicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="629" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="2214">
-          <folding />
-        </state>
+        <state line="19" column="28" selection-start="629" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="2214" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Daterange picker/Leave form with Date range picker.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Modal example/Modal-example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="10" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-22.933332" vertical-offset="527" max-vertical-offset="1431">
-          <folding />
-        </state>
+        <state line="45" column="10" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-22.933332" vertical-offset="527" max-vertical-offset="1431" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/Js browser programs/SelectAllCheckboxes/checkboxesSelection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
-          <folding />
-        </state>
+        <state line="12" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Modal example/modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188" />
       </provider>
     </entry>
     <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="38" selection-start="1915" selection-end="1918" vertical-scroll-proportion="-4.336937" vertical-offset="5188" max-vertical-offset="12474">
-          <folding />
-        </state>
+        <state line="103" column="38" selection-start="1915" selection-end="1918" vertical-scroll-proportion="-4.336937" vertical-offset="5188" max-vertical-offset="12474" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/test.html">
@@ -390,36 +415,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="420" column="14" selection-start="13020" selection-end="13020" vertical-scroll-proportion="0.0" vertical-offset="11074" max-vertical-offset="15336">
+          <folding>
+            <marker date="1415272247554" expanded="true" signature="11968:12067" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Bitnami/wampstack-5.4.29-0-1/apache2/htdocs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3312">
+        <state line="30" column="8" selection-start="851" selection-end="851" vertical-scroll-proportion="-17.1" vertical-offset="297" max-vertical-offset="4482">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tickets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="68" selection-start="7766" selection-end="7766" vertical-scroll-proportion="-10.0" vertical-offset="3318" max-vertical-offset="4320">
+        <state line="107" column="67" selection-start="6145" selection-end="6145" vertical-scroll-proportion="-4.909091" vertical-offset="2619" max-vertical-offset="4914">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Styles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="358" column="14" selection-start="10788" selection-end="10788" vertical-scroll-proportion="-4.836364" vertical-offset="9400" max-vertical-offset="13554">
-          <folding>
-            <marker date="1415196626118" expanded="true" signature="9759:9858" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interactions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="24" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.72864324" vertical-offset="807" max-vertical-offset="1593">
+        <state line="22" column="42" selection-start="739" selection-end="739" vertical-scroll-proportion="0.8190955" vertical-offset="51" max-vertical-offset="1863">
           <folding>
             <element signature="e#0#42#0" expanded="false" />
-            <element signature="e#695#751#0" expanded="false" />
-            <element signature="e#785#1026#0" expanded="false" />
           </folding>
         </state>
       </provider>
