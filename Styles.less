@@ -318,12 +318,13 @@ body {
                     border:   @interactiveDialogBorder;
                     box-shadow: @interactiveDialogBorderShadow;
                     border-radius: @detailsBorderRadius;
+
                     .user-details-header {
                       background-color: @interactionPanelBgcolor;
                       padding: 5px 5px;
                       overflow: hidden;
                       border-radius: @detailsBorderRadius;
-                      input {
+                      .close {
                         border: 0;
                         background-color: transparent;
                         float: right;
@@ -421,7 +422,6 @@ body {
               &.open {
                 display: block;
               }
-
             }
             .private-note-box {
               display: none;

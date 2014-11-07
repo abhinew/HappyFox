@@ -14,12 +14,12 @@
         $("body").on("click",clickedOutsideDialogHandler);
         $("#reply").click(showReplyDialog);
         $("#private-note").click(showPrivateNoteDialog);
-
-
         $(".close").click(function () {
             $(this).closest(".overlay").hide();
-        })
-        $(".overlay-shower").click(function () {
+        });
+        $(".overlay-shower").click(function (e) {
+            if ($.contains($(this).find(".overlay").get(0), e.target))
+                return;
             $(this).find(".overlay").fadeToggle();
         })
     });

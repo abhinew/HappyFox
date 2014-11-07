@@ -290,7 +290,7 @@ body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-bo
   overflow: hidden;
   border-radius: 5px;
 }
-body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel .user-details .user-details-header input {
+body .wrapper .content .tickets-container form .ticket-box .ticket-row1 .main-box .interaction-panel .user-details .user-details-header .close {
   border: 0;
   background-color: transparent;
   float: right;
