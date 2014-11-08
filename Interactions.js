@@ -21,7 +21,9 @@
             if ($.contains($(this).find(".overlay").get(0), e.target))
                 return;
             $(this).find(".overlay").fadeToggle();
-        })
+        });
+        $(".edit-priority-content a").click(setPriority);
+
     });
 
     function showChangeStatusDialog() {
@@ -58,6 +60,17 @@
     }
     function showPrivateNoteDialog(){
         $(".private-note-box").slideToggle("open");
+    }
+
+    function setPriority(e) {
+        $(".priority-container label").removeClass("current");
+        var className = $(this).attr("class");
+        var selector = ".priority-container ." +className;
+        $(".priority-container ."+className).trigger("click").addClass("current");
+        var selectedPriority = $(".priority-container .current").text();
+        $(".selected-priority").text(selectedPriority);
+
+
     }
 })();
 

@@ -123,10 +123,31 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="priority">
+                                    <div class="priority overlay-shower">
                                         <span>priority</span>
-                                        <input type="button" class="edit" value="Normal"/>
+                                        <div class="priority-container">
+                                            <input id="low" type="radio" name="priority" value="low"/><label for="low" class="low current" >low</label>
+                                            <input id="normal" type="radio" name="priority" value="normal"/><label for="normal" class="normal">normal</label>
+                                            <input id="high" type="radio" name="priority" value="high"/><label for="high" class="high" >high</label>
+                                            <input id="critical" type="radio" name="priority" value="critical"/><label for="critical" class="critical" >critical</label>
+                                        </div>
                                         <input type="button" class="icon"/>
+                                        <div class="edit-priority overlay">
+                                            <div class="edit-priority-header">
+                                                <span>Currently</span>  <label class="selected-priority">low</label>
+                                                <input type="button" class="close"/>
+                                            </div>
+                                            <div class="edit-priority-content">
+                                                <div>
+                                                    <a href="#" class="low">low</a>
+                                                    <a href="#" class="high">high</a>
+                                                </div>
+                                                <div class>
+                                                    <a href="#" class="normal">normal</a>
+                                                    <a href="#" class="critical">critical</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="category">
                                         <span>category</span>
